@@ -11,7 +11,7 @@ import askaiRoutes from "./src/routes/askai.js";
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://chatpdf-six-tau.vercel.app",
     credentials: true,
 }));
 app.use(helmet());
